@@ -1,0 +1,34 @@
+p {
+  font-family: Lato;
+}
+
+.container{
+  display: flex;
+  justify-content: center;
+
+}
+
+.count{
+  font-size:2rem;
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+.square{
+  width:250px;
+  height:250px;
+  border:1px solid blue;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.circle{
+  width:50px;
+  height: 50px;
+  border: 1px solid green;
+  border-radius: 50%;
+  position: absolute;
+}
+
